@@ -40,7 +40,8 @@ void Clicker()
 			Sleep(3000/cps);
 			mouse_event(MOUSEEVENTF_LEFTDOWN, x, y, 0, 0);
 			mouse_event(MOUSEEVENTF_LEFTUP, x, y, 0, 0);
-			Sleep(3000/cps);
+			Sleep(5000/cps);
+			return 0;
 		}
 		
 	}
